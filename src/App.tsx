@@ -1,3 +1,7 @@
+import { Route, Routes } from "react-router-dom";
+import Home from "./pages/Home/Home";
+import Store from "./pages/Store/Store";
+import Navbar from "./components/Navbar/Navbar";
 
 
 function App() {
@@ -5,7 +9,12 @@ function App() {
 
   return (
     <>
-      <div className="text-red-600 font-semibold">start project</div>
+    <Navbar/>
+    <Routes>
+      <Route path="/" element={<Home />}/>
+      <Route path="/store" element={<Store />}/>
+    </Routes>
+      
     </>
   );
 }
