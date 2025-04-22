@@ -13,7 +13,7 @@ function ACategory({ imageSrc, nameCategory, path, count }: IACategory) {
           <img className="w-[30px]" src={imageSrc} />
         </div>
         <div className="text-left flex flex-col gap-4">
-          <h3 className="font-semibold ">{nameCategory}</h3>
+          <h3 className="font-semibold ">{nameCategory.toLocaleUpperCase()}</h3>
           <Link to={path} className="text-[12px] text-[#FF8F9C]">
             Show All
           </Link>

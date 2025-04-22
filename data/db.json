@@ -1,5 +1,5 @@
 {
-    "products":{
+    "products": {
         "status": true,
         "data": [
             {
@@ -8,13 +8,14 @@
                 "type": "winter wear",
                 "category": "clothes",
                 "price": 61.00,
+                "path": "/menyarn",
                 "offPrice": 0,
                 "urlImage": "./src/assets/images/men-yarn.png",
                 "isMale": true,
                 "rating": 4,
                 "isBestSeller": false,
                 "count": 11,
-                "description":"men yarn is very very good and made in china"
+                "description": "men yarn is very very good and made in china"
             },
             {
                 "id": 2,
@@ -22,13 +23,14 @@
                 "type": "winter wear",
                 "category": "clothes",
                 "price": 32.00,
+                "path": "/menswinter",
                 "offPrice": 5,
                 "urlImage": "./src/assets/images/men-winter.png",
                 "isMale": true,
                 "rating": 3.5,
                 "isBestSeller": false,
                 "count": 19,
-                "description":"men yarn is very very good and made in iran"
+                "description": "men yarn is very very good and made in iran"
             },
             {
                 "id": 3,
@@ -36,13 +38,14 @@
                 "type": "jackets",
                 "category": "clothes",
                 "price": 50.00,
+                "path": "/menswinter2",
                 "offPrice": 50,
                 "urlImage": "./src/assets/images/men-winter-2.png",
                 "isMale": true,
                 "rating": 4,
                 "isBestSeller": false,
                 "count": 7,
-                "description":"men yarn is very very good and made in iran"
+                "description": "men yarn is very very good and made in iran"
             },
             {
                 "id": 4,
@@ -50,13 +53,14 @@
                 "type": "shorts",
                 "category": "clothes",
                 "price": 20.00,
+                "path": "/better",
                 "offPrice": 50,
                 "urlImage": "./src/assets/images/better-basics.png",
                 "isMale": false,
                 "rating": 3.7,
                 "isBestSeller": false,
                 "count": 21,
-                "description":"men yarn is very very good and made in china"
+                "description": "men yarn is very very good and made in china"
             },
             {
                 "id": 5,
@@ -64,13 +68,14 @@
                 "type": "sports",
                 "category": "footwear",
                 "price": 49.00,
+                "path": "/runing",
                 "offPrice": 48,
                 "urlImage": "./src/assets/images/running-white.png",
                 "isMale": true,
                 "rating": 4.3,
                 "isBestSeller": false,
                 "count": 13,
-                "description":"men yarn is very very good and made in china"
+                "description": "men yarn is very very good and made in china"
             },
             {
                 "id": 6,
@@ -78,13 +83,14 @@
                 "type": "sports",
                 "category": "footwear",
                 "price": 78.00,
+                "path": "/mens",
                 "offPrice": 52,
                 "urlImage": "./src/assets/images/trekking-black.png",
                 "isMale": true,
                 "rating": 4,
                 "isBestSeller": false,
                 "count": 11,
-                "description":"men yarn is very very good and made in china"
+                "description": "men yarn is very very good and made in china"
             },
             {
                 "id": 7,
@@ -92,27 +98,29 @@
                 "type": "party wear",
                 "category": "footwear",
                 "price": 94.00,
+                "path": "/mens",
                 "offPrice": 42,
                 "urlImage": "./src/assets/images/shoe-women.png",
                 "isMale": false,
                 "rating": 3,
                 "isBestSeller": false,
                 "count": 31,
-                "description":"men yarn is very very good and made in china"
+                "description": "men yarn is very very good and made in china"
             },
             {
                 "id": 8,
                 "title": "Sport Claw",
                 "type": "sports",
                 "category": "footwear",
-                "price": 94.00,
+                "price": 65.00,
+                "path": "/mens",
                 "offPrice": 44,
                 "urlImage": "./src/assets/images/sports-claw.png",
                 "isMale": true,
                 "rating": 4,
                 "isBestSeller": false,
                 "count": 9,
-                "description":"men yarn is very very good and made in china"
+                "description": "men yarn is very very good and made in china"
             },
             {
                 "id": 9,
@@ -120,13 +128,14 @@
                 "type": "jewellery",
                 "category": "jewellery",
                 "price": 65.00,
+                "path": "/mens",
                 "offPrice": 3,
                 "urlImage": "./src/assets/images/platinum.png",
                 "isMale": false,
                 "rating": 4.3,
                 "isBestSeller": false,
                 "count": 39,
-                "description":"platinum is very very good for women, so beautiful"
+                "description": "platinum is very very good for women, so beautiful"
             },
             {
                 "id": 10,
@@ -134,13 +143,14 @@
                 "type": "Watches",
                 "category": "jewellery",
                 "price": 70.00,
+                "path": "/Smart",
                 "offPrice": 21,
                 "urlImage": "./src/assets/images/smart-watch.png",
                 "isMale": true,
                 "rating": 3.5,
                 "isBestSeller": false,
                 "count": 23,
-                "description":"men yarn is very very good and made in china"
+                "description": "men yarn is very very good and made in china"
             },
             {
                 "id": 11,
@@ -148,13 +158,14 @@
                 "type": "cosmetics",
                 "category": "cosmetics",
                 "price": 70.00,
+                "path": "/mens",
                 "offPrice": 13,
                 "urlImage": "./src/assets/images/shampoo.png",
                 "isMale": false,
                 "rating": 4.7,
                 "isBestSeller": false,
                 "count": 31,
-                "description":"Shampoo is very very good for women, so beautiful"
+                "description": "Shampoo is very very good for women, so beautiful"
             },
             {
                 "id": 12,
@@ -162,13 +173,14 @@
                 "type": "jewellery",
                 "category": "jewellery",
                 "price": 30.00,
+                "path": "/mens",
                 "offPrice": 9,
                 "urlImage": "./src/assets/images/rose-gold.png",
                 "isMale": false,
                 "rating": 4,
                 "isBestSeller": false,
                 "count": 29,
-                "description":"rose gold is very very good for women, so beautiful"
+                "description": "rose gold is very very good for women, so beautiful"
             },
             {
                 "id": 13,
@@ -176,13 +188,14 @@
                 "type": "baby",
                 "category": "footwear",
                 "price": 4.00,
+                "path": "/mens",
                 "offPrice": 35,
                 "urlImage": "./src/assets/images/baby-fabric.png",
                 "isMale": false,
                 "rating": 3.5,
                 "isBestSeller": true,
                 "count": 31,
-                "description":"baby shoes is very very good and made in china"
+                "description": "baby shoes is very very good and made in china"
             },
             {
                 "id": 14,
@@ -190,13 +203,14 @@
                 "type": "winter wear",
                 "category": "clothes",
                 "price": 15.00,
+                "path": "/mens",
                 "offPrice": 53,
                 "urlImage": "./src/assets/images/mens-hoodie.png",
                 "isMale": true,
                 "rating": 3.5,
                 "isBestSeller": true,
                 "count": 45,
-                "description":"men hoodie is very very good and made in china"
+                "description": "men hoodie is very very good and made in china"
             },
             {
                 "id": 15,
@@ -204,13 +218,14 @@
                 "type": "winter wear",
                 "category": "clothes",
                 "price": 6.00,
+                "path": "/mens",
                 "offPrice": 50,
                 "urlImage": "./src/assets/images/girl-tshirt.png",
                 "isMale": true,
                 "rating": 4.3,
                 "isBestSeller": true,
                 "count": 25,
-                "description":"girl T-Shirt  is very very good and made in iran"
+                "description": "girl T-Shirt  is very very good and made in iran"
             },
             {
                 "id": 16,
@@ -218,13 +233,14 @@
                 "type": "hat",
                 "category": "clothes",
                 "price": 10.00,
+                "path": "/mens",
                 "offPrice": 20,
                 "urlImage": "./src/assets/images/woolen-hat.png",
                 "isMale": true,
                 "rating": 4,
                 "isBestSeller": false,
                 "count": 23,
-                "description":"Woolean Hat for men is very very good and made in china"
+                "description": "Woolean Hat for men is very very good and made in china"
             },
             {
                 "id": 17,
@@ -232,13 +248,14 @@
                 "type": "shirt",
                 "category": "clothes",
                 "price": 56.00,
+                "path": "/mens",
                 "offPrice": 32,
                 "urlImage": "./src/assets/images/pure-garment.png",
                 "isMale": true,
                 "rating": 3,
                 "isBestSeller": false,
                 "count": 29,
-                "description":"men T-Shirt  is very very good and made in iran"
+                "description": "men T-Shirt  is very very good and made in iran"
             },
             {
                 "id": 18,
@@ -246,13 +263,14 @@
                 "type": "skirt",
                 "category": "clothes",
                 "price": 35.00,
+                "path": "/mens",
                 "offPrice": 40,
                 "urlImage": "./src/assets/images/black-floral.png",
                 "isMale": true,
                 "rating": 3.4,
                 "isBestSeller": false,
                 "count": 62,
-                "description":"skirt is very very good for women, so beautiful"
+                "description": "skirt is very very good for women, so beautiful"
             },
             {
                 "id": 19,
@@ -260,13 +278,14 @@
                 "type": "casual",
                 "category": "footwear",
                 "price": 65.00,
+                "path": "/mens",
                 "offPrice": 11,
                 "urlImage": "./src/assets/images/casual.png",
                 "isMale": true,
                 "rating": 2.9,
                 "isBestSeller": false,
                 "count": 32,
-                "description":"men shoes is very very good and made in china"
+                "description": "men shoes is very very good and made in china"
             },
             {
                 "id": 20,
@@ -274,13 +293,14 @@
                 "type": "Watches",
                 "category": "jewellery",
                 "price": 86.00,
+                "path": "/mens",
                 "offPrice": 17,
                 "urlImage": "./src/assets/images/watches-gold.png",
                 "isMale": true,
                 "rating": 4,
                 "isBestSeller": true,
                 "count": 25,
-                "description":"watches gold is very very good for women, so beautiful"
+                "description": "watches gold is very very good for women, so beautiful"
             },
             {
                 "id": 21,
@@ -288,13 +308,14 @@
                 "type": "formal",
                 "category": "footwear",
                 "price": 64.00,
+                "path": "/mens",
                 "offPrice": 12,
                 "urlImage": "./src/assets/images/mens-leather.png",
                 "isMale": true,
                 "rating": 3.7,
                 "isBestSeller": false,
                 "count": 11,
-                "description":"Men’s Leather Formal Wear Shoes is very very good and made in china"
+                "description": "Men’s Leather Formal Wear Shoes is very very good and made in china"
             }
         ]
     }
