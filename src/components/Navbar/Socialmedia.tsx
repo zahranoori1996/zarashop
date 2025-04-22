@@ -38,7 +38,7 @@ function Socialmedia() {
               </a>
             ))}
           </div>
-          <div>
+          <div className="max-sm:hidden">
             <h3 className="text-gray-600 text-sm font-semibold">
             FREE SHIPPING THIS WEEK ORDER OVER - $55
             </h3>

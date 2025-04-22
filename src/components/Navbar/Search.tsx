@@ -3,10 +3,10 @@ import Container from "../Container/Container";
 
 function Search() {
   return (
-    <div className="shadow">
+    <div className="shadow py-2">
       <Container>
         <div className="flex items-center justify-between gap-2">
-          <img className="max-w-[200px]" src="./src/assets/icons/logo.png" />
+          <img className="max-w-[200px] max-md:max-w-[120px]" src="./src/assets/icons/logo.png" />
           <div className="flex justify-between searchBox border-[#EDEDED] border-2 w-[70vw] text-left rounded-lg p-2">
             <input
               className="w-[90%] focus:outline-0"
