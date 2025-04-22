@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 import Container from "../Container/Container";
 
 function Search() {
@@ -6,20 +6,43 @@ function Search() {
     <div className="shadow py-2">
       <Container>
         <div className="flex items-center justify-between gap-2">
-          <img className="max-w-[200px] max-md:max-w-[120px]" src="./src/assets/icons/logo.png" />
+          <Link to='/'>
+            <img
+              className="max-w-[200px] max-md:max-w-[120px]"
+              src="./src/assets/icons/logo.png"
+            />
+          </Link>{" "}
           <div className="flex justify-between searchBox border-[#EDEDED] border-2 w-[70vw] text-left rounded-lg p-2">
             <input
               className="w-[90%] focus:outline-0"
               placeholder="Enter your product name.... "
             />
             <button>
-              <img className="cursor-pointer" src="./src/assets/icons/search.svg" />
+              <img
+                className="cursor-pointer"
+                src="./src/assets/icons/search.svg"
+              />
             </button>
           </div>
           <div className="flex gap-1.5">
-            <img className="max-w-9 cursor-pointer" src="./src/assets/icons/user.svg" />
-            <img className="max-w-9 cursor-pointer" src="./src/assets/icons/heart.svg" />
-            <img className="max-w-9 cursor-pointer" src="./src/assets/icons/shopping-bag.svg" />
+            <Link to="/">
+              <img
+                className="max-w-9 cursor-pointer"
+                src="./src/assets/icons/user.svg"
+              />
+            </Link>
+            <Link to="/">
+              <img
+                className="max-w-9 cursor-pointer"
+                src="./src/assets/icons/heart.svg"
+              />
+            </Link>
+            <Link to="/">
+              <img
+                className="max-w-9 cursor-pointer"
+                src="./src/assets/icons/shopping-bag.svg"
+              />
+            </Link>
           </div>
         </div>
       </Container>
