@@ -4,6 +4,7 @@ import ListMiniProductCard from "./ListMiniProductCard";
 import Container from "../Container/Container";
 import BestSeller from "./BestSeller";
 import SuggestedProduct from "./SuggestedProduct";
+import NewProducts from "./NewProducts";
 
 function Main() {
   return (
@@ -17,9 +18,10 @@ function Main() {
         <div className="flex flex-col w-full gap-8">
         <ListMiniProductCard />
         <SuggestedProduct/>
+        <NewProducts/>
+        
         </div>
-       
-
+      
       </div>
     </Container>
   );

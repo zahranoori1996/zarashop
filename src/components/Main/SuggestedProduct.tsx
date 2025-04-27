@@ -6,8 +6,7 @@ import Countdown from "react-countdown";
 function SuggestedProduct() {
   return (
     <Link to="/" className="">
-      <h2 className="border-b-gray-200 border-b-2 pb-2 font-semibold">
-        {" "}
+      <h2 className="border-b-gray-100 border-b-2 pb-2 font-semibold">
         Deal Of The Day
       </h2>
       <div className="shadow rounded-xl w-full p-4 my-8 flex">
