@@ -38,7 +38,7 @@ function NewArrivals({ titleList }: TTitleList) {
     },
   ];
   return (
-    <div className="w-[40%]">
+    <div className="w-fit">
       <h2 className="mb-4 pb-1 border-b-2 border-b-gray-100 font-bold text-lg">
         {titleList}
       </h2>
