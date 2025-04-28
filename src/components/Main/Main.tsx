@@ -11,20 +11,18 @@ function Main() {
     <Container>
       <div className="flex gap-6 ">
         <div className="flex flex-col gap-3 w-fit">
-        <Categories />
-        <BestSeller />
+          <Categories />
+          <BestSeller />
         </div>
-       
+
         <div className="flex flex-col w-full gap-8">
-        <ListMiniProductCard />
-        <SuggestedProduct/>
-        <NewProducts/>
-        
+          <ListMiniProductCard />
+          <SuggestedProduct />
+          <NewProducts />
         </div>
-      
       </div>
     </Container>
   );
-} 
+}
 
 export default Main;
