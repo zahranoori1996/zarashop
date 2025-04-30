@@ -3,10 +3,10 @@ import { ComponentPropsWithoutRef } from "react";
 import Container from "../Container/Container";
 type TImage = ComponentPropsWithoutRef<"img">;
 
-function Banner({ src,alt }: TImage) {
+function Banner({ src,alt,className }: TImage) {
   return (
     <Container>
-      <img className="w-full" src={src} alt={alt}/>
+      <img className={className} src={src} alt={alt}/>
     </Container>
   );
 }

@@ -5,6 +5,7 @@ import Container from "../Container/Container";
 import BestSeller from "./BestSeller";
 import SuggestedProduct from "./SuggestedProduct";
 import NewProducts from "./NewProducts";
+import CardsBanner from "../CardsBanner/CardsBanner";
 
 function Main() {
   return (
@@ -19,7 +20,9 @@ function Main() {
           <ListMiniProductCard />
           <SuggestedProduct />
           <NewProducts />
+          <CardsBanner/>
         </div>
+
       </div>
     </Container>
   );
