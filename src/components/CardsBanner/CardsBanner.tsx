@@ -14,7 +14,6 @@ function CardsBanner() {
             <h3>CEO & Founder Invision</h3>
             <img className="w-[30px]" src="./src/assets/icons/quote-left.svg" />
             <p className="text-center text-gray-500">
-              {" "}
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nam
               est omnis pariatur molestiae eum hic nemo facilis, quae sequi!
             </p>

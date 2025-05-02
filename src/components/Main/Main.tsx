@@ -23,6 +23,7 @@ function Main() {
           <NewProducts />
           <CardsBanner/>
           <Articles />
+          
         </div>
 
       </div>

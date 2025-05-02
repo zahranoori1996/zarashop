@@ -5,7 +5,7 @@ import PopularCategory from '../../components/PopularCategory/PopularCategory';
 import Main from '../../components/Main/Main';
 function Home() {
   return (
-    <div className='pb-3'>
+    <div className='pb-3 overflow-x-hidden'>
       <Banner className='w-full' src={banner1} alt="trending item women's latest fashion sale"/>
       <PopularCategory />
       <Main/>
