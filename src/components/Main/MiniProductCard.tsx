@@ -10,7 +10,7 @@ interface IProdcut {
 }
 function MiniProductCard({imageSrc,nameProduct,typeProduct,price,discount,path}:IProdcut) {
   return (
-    <Link to={path} className='flex border-2 border-gray-100 rounded-lg p-2 w-[300px] my-3 max-lg:w-[60vw] max-md:w-[50vw] max-sm:w-[90%]'>
+    <Link to={path} className='flex border-2 border-gray-100 rounded-lg p-2 w-[300px] my-3 max-lg:w-[60vw] max-md:w-[50vw] max-sm:w-[100vw]'>
       <img className='w-[100px]' src={imageSrc}/>
       <div className='pl-2'>
       <h3 className='font-semibold line-clamp-1'>{nameProduct}</h3>
