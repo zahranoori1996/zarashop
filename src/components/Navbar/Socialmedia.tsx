@@ -28,9 +28,9 @@ const dataSocialMedia = [
 ];
 function Socialmedia() {
   return (
-    <div className="shadow h-9 flex items-center max-sm:h-20 ">
+    <div className="shadow h-9 flex items-center ">
       <Container>
-        <div className="flex justify-between max-sm:flex-wrap max-sm:px-2">
+        <div className="flex justify-between max-sm:flex-wrap px-2">
           <div className="flex">
             {dataSocialMedia.map((item) => (
               <a key={item.id} href={item.link} target="_blank">

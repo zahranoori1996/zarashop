@@ -5,12 +5,14 @@ import Countdown from "react-countdown";
 
 function SuggestedProduct() {
   return (
-    <Link to="/" className="">
+    <div className="">
       <h2 className="border-b-gray-100 border-b-2 pb-2 font-semibold">
         Deal Of The Day
       </h2>
       <div className="shadow rounded-xl w-full p-4 my-8 flex">
-        <img src="./src/assets/images/shampoo.png" alt="" />
+       <Link to='/'>
+       <img src="./src/assets/images/shampoo.png" alt="" />
+       </Link>
         <div className="flex flex-col gap-2 pr-6">
           <div className="flex">
             <img src={star} />
@@ -88,7 +90,7 @@ function SuggestedProduct() {
           />
         </div>
       </div>
-    </Link>
+    </div>
   );
 }
 

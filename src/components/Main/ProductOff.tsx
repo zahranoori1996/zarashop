@@ -12,7 +12,7 @@ interface IProductOff {
 function ProductOff({ image, title, rating, price, off, path }: IProductOff) {
   return (
     <Link to={path} className="flex">
-      <img className="w-20" src={image} />
+      <Link to={path}><img className="w-20" src={image} /></Link>
       <div>
         <h3 className="text-md text-gray-400 ">{title}</h3>
         <div className="flex">
