@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import Container from "../Container/Container";
 import { Link } from "react-router-dom";
 
 function Menu() {
+  const [isShowMenu,setIsShowMenu] = useState(false)
   const menuItems = [
     { path: "/", title: "Home" },
     { path: "/categories", title: "Categories" },
@@ -13,10 +14,17 @@ function Menu() {
     { path: "/blog", title: "Blog" },
     { path: "/hotoffer", title: "Hot Offer" },
   ];
+
+  
   return (
     <Container>
-      <nav className="py-4 max-md:hidden">
-        <ul className="flex gap-7 justify-center font-semibold text-[#494949] text-[17px] ">
+      <nav className="py-4 ">
+      <div className="flex justify-end pb-2">
+      <img onClick={()=> setIsShowMenu(!isShowMenu)} className="hidden max-md:block w-[48px] cursor-pointer" src="./src/assets/icons/menu-burger.svg"/>
+      </div>
+        <ul className={`flex gap-7 justify-center font-semibold text-[#494949] text-[17px] 
+        ${isShowMenu ? 'max-md:flex-col' : 'max-md:hidden'}
+        `}>
           {menuItems.map((item, index) => (
             <li key={index}>
               <Link to={item.path}>{item.title.toLocaleUpperCase()}</Link>
