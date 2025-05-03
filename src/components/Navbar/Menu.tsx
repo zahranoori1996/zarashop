@@ -18,8 +18,8 @@ function Menu() {
   
   return (
     <Container>
-      <nav className="py-4 ">
-      <div className="flex justify-end pb-2">
+      <nav className="py-4 max-md:py-1">
+      <div className="flex justify-end">
       <img onClick={()=> setIsShowMenu(!isShowMenu)} className="hidden max-md:block w-[48px] cursor-pointer" src="./src/assets/icons/menu-burger.svg"/>
       </div>
         <ul className={`flex gap-7 justify-center font-semibold text-[#494949] text-[17px] 
