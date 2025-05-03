@@ -34,7 +34,7 @@ function PopularCategory() {
   ];
   return (
     <Container>
-      <div className="py-4 flex gap-4 justify-between flex-wrap max-lg:justify-center">
+      <div className="py-4 px-2 flex gap-4 justify-between flex-wrap ">
         {dataPouplarCategory.map((category,index) => (
           <ACategory key={index} {...category} />
         ))}

@@ -11,13 +11,13 @@ import Articles from "../Articles/Articles";
 function Main() {
   return (
     <Container>
-      <div className="flex gap-6 ">
-        <div className="flex flex-col gap-3 w-fit">
+      <div className="flex gap-6 px-2">
+        <div className="flex flex-col gap-3 w-fit max-sm:hidden">
           <Categories />
           <BestSeller />
         </div>
 
-        <div className="flex flex-col w-full gap-8">
+        <div className="flex flex-col max-lg:w-full gap-8 ">
           <ListMiniProductCard />
           <SuggestedProduct />
           <NewProducts />

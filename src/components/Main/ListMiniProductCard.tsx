@@ -4,7 +4,7 @@ import Trending from "./Trending";
 
 function ListMiniProductCard() {
   return (
-    <div className="flex gap-5 flex-wrap justify-between">
+    <div className="flex flex-wrap justify-between max-lg:flex-col">
       <NewArrivals titleList="New Arrivals" />
       <Trending titleList="Trending" />
       <TopRated titleList="Top Rated"/>
