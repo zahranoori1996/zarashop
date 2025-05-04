@@ -30,7 +30,7 @@ function Articles() {
       />
       <Article
         path="/"
-        imageUrl="./src/assets/images/article-fashion.png"
+        imageUrl="./src/assets/images/article-clothes.png"
         type="Clothes"
         title="Curbside fashion Trends: How to Win the Pickup Battle."
         author="By Mr Wick"

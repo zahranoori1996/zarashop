@@ -21,13 +21,14 @@ function Main() {
           <ListMiniProductCard />
           <SuggestedProduct className="max-lg:hidden" />
           <NewProducts />
-          <CardsBanner/>
-          <Articles />
-          
+        
+
         </div>
        
 
       </div>
+      <CardsBanner/>
+      <Articles />
     </Container>
   );
 }

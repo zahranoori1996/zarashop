@@ -6,12 +6,12 @@ import Container from "../Container/Container";
 function CardsBanner() {
   return (
     <Container>
-      <div className="flex gap-16 justify-between">
-        <Card heading="Testimonial">
+      <div className="flex gap-3 justify-around pb-5 max-lg:flex-wrap">
+        <Card className="flex flex-col min-w-[250px] w-[270px]" heading="Testimonial">
           <div className="flex flex-col items-center gap-3">
             <img className="w-20" src="./src/assets/images/user.png" />
             <h2 className="font-bold text-gray-600">ALAN DOE</h2>
-            <h3>CEO & Founder Invision</h3>
+            <h3 className="">CEO & Founder Invision</h3>
             <img className="w-[30px]" src="./src/assets/icons/quote-left.svg" />
             <p className="text-center text-gray-500">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nam
@@ -19,11 +19,13 @@ function CardsBanner() {
             </p>
           </div>
         </Card>
-        <Banner
-          className="w-full h-auto"
+     <div className="w-lg max-lg:order-1 max-lg:w-[100vw]">
+     <Banner
+          className="min-w-[400px] max-lg:w-full"
           src="./src/assets/images/sumer-discount.png"
         />
-        <Card heading="Our Services">
+     </div>
+        <Card className="flex flex-col min-w-[250px] w-[270px]" heading="Our Services">
           <ul className="flex flex-col gap-4">
             <li className="flex gap-3">
               <img className="w-[32px] h-[32px]" src="./src/assets/icons/boat.svg" alt="" />
