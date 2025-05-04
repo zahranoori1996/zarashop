@@ -22,7 +22,7 @@ function Menu() {
       <div className="flex justify-end">
       <img onClick={()=> setIsShowMenu(!isShowMenu)} className="hidden max-md:block w-[48px] cursor-pointer" src="./src/assets/icons/menu-burger.svg"/>
       </div>
-        <ul className={`flex gap-7 justify-center font-semibold text-[#494949] text-[17px] 
+        <ul className={`flex gap-7 justify-center font-semibold text-[#494949] text-[17px] max-lg:text-sm max-lg:gap-3
         ${isShowMenu ? 'max-md:flex-col' : 'max-md:hidden'}
         `}>
           {menuItems.map((item, index) => (

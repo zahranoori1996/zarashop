@@ -16,15 +16,16 @@ function Main() {
           <Categories />
           <BestSeller />
         </div>
-
+        
         <div className="flex flex-col max-lg:w-full gap-8 ">
           <ListMiniProductCard />
-          <SuggestedProduct />
+          <SuggestedProduct className="max-lg:hidden" />
           <NewProducts />
           <CardsBanner/>
           <Articles />
           
         </div>
+       
 
       </div>
     </Container>

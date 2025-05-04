@@ -1,4 +1,5 @@
 import Container from "../Container/Container";
+import SuggestedProduct from "../Main/SuggestedProduct";
 import ACategory from "./ACategory";
 
 function PopularCategory() {
@@ -39,6 +40,7 @@ function PopularCategory() {
           <ACategory key={index} {...category} />
         ))}
       </div>
+        <SuggestedProduct className="lg:hidden max-lg:px-2" />
     </Container>
   );
 }

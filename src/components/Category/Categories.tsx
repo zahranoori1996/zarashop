@@ -1,4 +1,5 @@
 
+
 import Category from './Category';
 
 function Categories() {
@@ -52,8 +53,8 @@ function Categories() {
       let h2Title = 'category';
   return (
     <>
-    
-        
+   
+     
        <div className='flex flex-col gap-5 shadow w-[250px] h-fit p-6 rounded-lg border-2 border-gray-100'>
        <h2 className='font-bold text-lg'>{h2Title.toLocaleUpperCase()}</h2>
        {
@@ -62,6 +63,7 @@ function Categories() {
             ))
         }
        </div>
+      
      
     </>
   )
