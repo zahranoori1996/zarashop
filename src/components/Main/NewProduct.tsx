@@ -11,7 +11,7 @@ interface INewProduct{
 }
 function NewProduct({urlImage,typeProduct,nameProduct,price,offPrice,path}:INewProduct) {
   return (
-    <div  className="w-[230px] p-4 shadow rounded-lg flex flex-col gap-1 ">
+    <div  className="w-[230px] max-md:w-[50vw] max-sm:w-[100vw]  p-4 shadow rounded-lg flex flex-col gap-1 ">
       <Link to={path}>
       <img src={urlImage} alt="" />
       </Link>

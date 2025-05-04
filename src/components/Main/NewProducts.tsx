@@ -127,7 +127,7 @@ function NewProducts() {
   return (
 <div className=''>
     <h2 className='border-b-2 border-b-gray-100 py-2 font-bold text-lg'>New Products</h2>
-<div className='flex flex-wrap gap-5 justify-between py-5'>
+<div className='flex flex-wrap gap-5 py-5 max-lg:justify-start'>
    {
     newProducts.map((product,index)=>(
         <NewProduct key={index} {...product} />
