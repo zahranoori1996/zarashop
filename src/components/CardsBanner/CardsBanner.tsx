@@ -21,7 +21,7 @@ function CardsBanner() {
         </Card>
      <div className="w-lg max-lg:order-first max-lg:w-[100vw]">
      <Banner
-          className="min-w-[400px] max-lg:w-full"
+          className="min-w-[400px] max-sm:min-w-[100vw] max-lg:w-full"
           src="./src/assets/images/sumer-discount.png"
         />
      </div>
