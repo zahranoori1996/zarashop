@@ -10,7 +10,7 @@ interface IArticle {
 }
 function Article({path,imageUrl,type,title,author,date}:IArticle) {
   return (
-    <Link className='flex flex-col' to={path}>
+    <Link className='flex flex-col min-w-[170px] w-[200px] max-sm:w-[250px] ' to={path}>
       <img src={imageUrl} alt="" />
       <p className='text-[#ff8f9c] pt-3'>{type}</p>
       <h3 className='font-bold line-clamp-2'>{title}</h3>

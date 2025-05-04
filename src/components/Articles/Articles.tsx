@@ -3,7 +3,7 @@ import Article from "../Article/Article";
 
 function Articles() {
   return (
-    <div className="flex gap-4">
+    <div className="flex gap-4 flex-wrap  max-sm:justify-around">
       <Article
         path="/"
         imageUrl="./src/assets/images/article-fashion.png"
