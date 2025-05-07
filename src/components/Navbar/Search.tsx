@@ -11,7 +11,7 @@ function Search() {
               className="max-w-[200px] max-md:max-w-[120px] max-md:order-2 "
               src="./src/assets/icons/logo.png"
             />
-          </Link>{" "}
+          </Link>
           <div className="flex justify-between searchBox border-[#EDEDED] border-2 w-[70vw] text-left rounded-lg p-2 max-md:order-first max-md:w-[100vw]">
             <input
               className="w-[90%] focus:outline-0 max-md:text-[14px]"
@@ -25,7 +25,7 @@ function Search() {
             </button>
           </div>
           <div className="flex gap-1.5 max-md:order-3">
-            <Link to="/">
+            <Link to="/login">
               <img
                 className="max-w-9 cursor-pointer max-md:w-5"
                 src="./src/assets/icons/user.svg"
